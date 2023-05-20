@@ -13,7 +13,7 @@ import Pgp from "~/images/icons/pgp.svg";
 import ProfilePicture from "~/images/pfp.png";
 import rickroll from "~/images/notarickroll.webp";
 import React from "react";
-import { useLongHover } from "clicker";
+import { useLongHover } from "@tpguy825/clicker";
 
 const inter = font({
 	src: "./fonts/Inter-roman.var.woff2",
