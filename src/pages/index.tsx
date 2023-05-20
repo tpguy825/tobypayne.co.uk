@@ -95,12 +95,12 @@ function Links() {
 }
 
 function ProfileImage() {
-	const [isRickroll, handlers] = useLongHover(2000)
+	const [isRickroll, handlers] = useLongHover(2000);
 	return (
 		<Image
-		height={80}
-		width={80}
-		{...handlers}
+			height={80}
+			width={80}
+			{...handlers}
 			className="rounded-[50%]"
 			src={isRickroll ? rickroll : ProfilePicture}
 			alt="Profile image"
@@ -138,4 +138,3 @@ function OtherBitsMobile() {
 		</div>
 	);
 }
-

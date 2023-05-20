@@ -9,7 +9,7 @@ const config = {
 	reactStrictMode: true,
 	images: {
 		formats: ["image/avif", "image/webp"],
-	}
+	},
 
 	/**
 	 * If you have `experimental: { appDir: true }` set, then you must comment the below `i18n` config
@@ -23,4 +23,3 @@ const config = {
 	//   },
 };
 export default config;
-
