@@ -1,4 +1,3 @@
-import { type NextPage } from "next";
 import Head from "next/head";
 import Image, { type StaticImageData } from "next/image";
 import Link from "next/link";
@@ -21,7 +20,7 @@ const inter = font({
 	variable: "--font-inter",
 });
 
-const Home: NextPage = () => {
+export default function Home(): JSX.Element {
 	return (
 		<>
 			<Head>
@@ -33,6 +32,18 @@ const Home: NextPage = () => {
 
 				<Partytown forward={["dataLayer.push"]} />
 			</Head>
+			<Scripts />
+			<main className={`flex w-full ${inter.variable} font-sans`}>
+				<OtherBitsMobile />
+				<OtherBitsDesktop />
+			</main>
+		</>
+	);
+}
+
+function Scripts(): JSX.Element {
+	return (
+		<>
 			{/* eslint-disable-next-line @next/next/next-script-for-ga */}
 			<script
 				async
@@ -59,24 +70,17 @@ const Home: NextPage = () => {
     						// y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     					})(window, document, "clarity", "script", "h7cbux214u");`,
 				}}></script>
-			<script></script>
-			<main className={`flex w-full ${inter.variable} font-sans`}>
-				<OtherBitsMobile />
-				<OtherBitsDesktop />
-			</main>
 		</>
 	);
-};
+}
 
-export default Home;
-
-function LinkDivider() {
+function LinkDivider(): JSX.Element {
 	return (
 		<div className="mx-2 my-auto inline-block h-4 w-0 rounded-full border-x-[0.75px] border-gray-400"></div>
 	);
 }
 
-function Links() {
+function Links(): JSX.Element {
 	return (
 		<>
 			<Link href="https://github.com/tpguy825">
@@ -126,7 +130,7 @@ function Links() {
 	);
 }
 
-function ProfileImage() {
+function ProfileImage(): JSX.Element {
 	const [isRickroll, handlers] = useLongHover(2000);
 	return (
 		<Image
@@ -141,7 +145,7 @@ function ProfileImage() {
 	);
 }
 
-function OtherBitsDesktop() {
+function OtherBitsDesktop(): JSX.Element {
 	return (
 		<div className="m-4 hidden max-h-[8rem] w-full gap-3 rounded-2xl bg-gray-200 p-5 shadow-sm sm:flex">
 			<div className="w-[5rem]">
@@ -157,7 +161,7 @@ function OtherBitsDesktop() {
 		</div>
 	);
 }
-function OtherBitsMobile() {
+function OtherBitsMobile(): JSX.Element {
 	return (
 		<div className="m-4 flex max-h-[8rem] w-full gap-3 rounded-2xl bg-gray-200 p-5 shadow-sm sm:hidden">
 			<div className="w-[5rem]">
