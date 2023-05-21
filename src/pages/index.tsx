@@ -26,7 +26,7 @@ const Home: NextPage = () => {
 		<>
 			<Head>
 				<title>Toby Payne</title>
-				{/* <meta name="description" content="" /> */}
+				<meta name="description" content="Personal website" />
 				<link rel="icon" href={ProfilePicture.src} />
 				<link rel="manifest" href="manifest.webmanifest" />
 				<link rel="apple-touch-icon" href="favicon.ico" />
