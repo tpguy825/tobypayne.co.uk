@@ -319,28 +319,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@t3-oss/env-core@npm:0.3.1":
-  version: 0.3.1
-  resolution: "@t3-oss/env-core@npm:0.3.1"
-  peerDependencies:
-    typescript: ">=4.7.2"
-    zod: ^3.0.0
-  checksum: 054f76e11522f6c6e07aa558f2fb325e9b05f83d13c8963ca3bb0cf3a398d54aec46c38c9ff7be9d08c8d05a11c5b221406f3908bf5c95517fe45756fc7df818
-  languageName: node
-  linkType: hard
-
-"@t3-oss/env-nextjs@npm:^0.3.0":
-  version: 0.3.1
-  resolution: "@t3-oss/env-nextjs@npm:0.3.1"
-  dependencies:
-    "@t3-oss/env-core": 0.3.1
-  peerDependencies:
-    typescript: ">=4.7.2"
-    zod: ^3.0.0
-  checksum: 3df43671191390b282e358e49c8d1722bd26defacefa3a50e5e17945d7cf29671bba478662edf03749bf5b17119f3228c57c5a18c4c483bb0906dbe1a7e105ba
-  languageName: node
-  linkType: hard
-
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -3871,6 +3849,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"preact@npm:^10.14.1":
+  version: 10.14.1
+  resolution: "preact@npm:10.14.1"
+  checksum: 2babea9a7a48c93fbdc1bc2b4ec599070585cdf253bbfc2f37ebdd3a3c85c503a92af2be175344a46d1e0439820702b92ad60e9140abefc49c43871f906e8461
+  languageName: node
+  linkType: hard
+
 "prebuild-install@npm:^7.1.1":
   version: 7.1.1
   resolution: "prebuild-install@npm:7.1.1"
@@ -5031,7 +5016,6 @@ __metadata:
   resolution: "website@workspace:."
   dependencies:
     "@builder.io/partytown": ^0.8.0
-    "@t3-oss/env-nextjs": ^0.3.0
     "@tpguy825/clicker": ^1.0.1
     "@types/eslint": ^8.21.3
     "@types/node": ^18.15.5
@@ -5045,6 +5029,7 @@ __metadata:
     eslint-config-next: ^13.4.1
     next: ^13.4.1
     postcss: ^8.4.21
+    preact: ^10.14.1
     prettier: ^2.8.6
     prettier-plugin-tailwindcss: ^0.3.0
     react: 18.2.0

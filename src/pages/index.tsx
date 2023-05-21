@@ -27,7 +27,6 @@ export default function Home(): JSX.Element {
 				<title>Toby Payne</title>
 				<meta name="description" content="Personal website" />
 				<link rel="icon" href={ProfilePicture.src} />
-				<link rel="manifest" href="manifest.webmanifest" />
 				<link rel="apple-touch-icon" href="favicon.ico" />
 
 				<Partytown forward={["dataLayer.push"]} />
@@ -152,7 +151,7 @@ function OtherBitsDesktop(): JSX.Element {
 				<ProfileImage />
 			</div>
 			<div className="my-auto">
-				<h1 className="text-3xl font-extrabold sm:mb-2 sm:text-[2.8rem] md:text-5xl">Toby Payne</h1>
+				<h1 className="text-3xl font-extrabold sm:mb-2 sm:text-5xl">Toby Payne</h1>
 				<p>Software Developer</p>
 			</div>
 			<div className="m-auto mr-2 block justify-end">
@@ -168,7 +167,7 @@ function OtherBitsMobile(): JSX.Element {
 				<ProfileImage />
 			</div>
 			<div className="my-auto">
-				<h1 className=" text-3xl font-extrabold sm:mb-2 sm:text-[2.8rem] md:text-5xl">Toby Payne</h1>
+				<h1 className=" text-3xl font-extrabold sm:mb-2 sm:text-5xl">Toby Payne</h1>
 				<p className="">Software Developer</p>
 				<Links />
 			</div>
