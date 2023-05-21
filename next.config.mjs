@@ -1,9 +1,3 @@
-import nextpwa from "next-pwa";
-const withPWA = nextpwa({
-	dest: "public",
-	maximumFileSizeToCacheInBytes: 3145728
-});
-
 /** @type {import("next").NextConfig} */
 const config = {
 	reactStrictMode: true,
@@ -22,4 +16,4 @@ const config = {
 		defaultLocale: "en",
 	},
 };
-export default withPWA(config);
+export default config;

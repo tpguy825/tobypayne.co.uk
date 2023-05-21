@@ -4,6 +4,7 @@ import Link from "next/link";
 import font from "next/font/local";
 import { useLongHover } from "@tpguy825/clicker";
 import { Partytown } from "@builder.io/partytown/react";
+import React from "react";
 
 import Github from "~/images/icons/github.svg";
 import Twitter from "~/images/icons/twitter.svg";
@@ -13,7 +14,6 @@ import Email from "~/images/icons/email.svg";
 import Pgp from "~/images/icons/pgp.svg";
 import ProfilePicture from "~/images/pfp.png";
 import rickroll from "~/images/notarickroll.gif";
-import React from "react";
 
 const inter = font({
 	src: "./fonts/Inter-roman.var.woff2",
@@ -152,8 +152,8 @@ function OtherBitsDesktop(): JSX.Element {
 				<ProfileImage />
 			</div>
 			<div className="my-auto">
-				<h1 className=" text-3xl font-extrabold sm:mb-2 sm:text-[2.8rem] md:text-5xl">Toby Payne</h1>
-				<p className="">Software Developer</p>
+				<h1 className="text-3xl font-extrabold sm:mb-2 sm:text-[2.8rem] md:text-5xl">Toby Payne</h1>
+				<p>Software Developer</p>
 			</div>
 			<div className="m-auto mr-2 block justify-end">
 				<Links />
