@@ -37,6 +37,7 @@ const Home: NextPage = () => {
 				async
 				type="text/partytown"
 				src="https://www.googletagmanager.com/gtag/js?id=G-E27YNK7NFH"></script>
+			<script async type="text/partytown" src="https://www.clarity.ms/tag/h7cbux214u"></script>
 			<script
 				dangerouslySetInnerHTML={{
 					__html: `
@@ -46,17 +47,18 @@ const Home: NextPage = () => {
 						
 						gtag('config', 'G-E27YNK7NFH');`,
 				}}></script>
+			<script async type="text/partytown" src="./clarity.bundle.js"></script>
 			<script
-				type="text/javascript"
+				type="text/partytown"
 				dangerouslySetInnerHTML={{
 					__html: `
     					(function(c,l,a,r,i,t,y){
-    					    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-    					    t=l.createElement(r);t.async=1;t.type="text/partytown-x";
-							t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];
-							y.parentNode.insertBefore(t,y);
+    						c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    						// t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    						// y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     					})(window, document, "clarity", "script", "h7cbux214u");`,
 				}}></script>
+			<script></script>
 			<main className={`flex w-full ${inter.variable} font-sans`}>
 				<OtherBitsMobile />
 				<OtherBitsDesktop />
