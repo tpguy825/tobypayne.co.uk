@@ -52,7 +52,7 @@ const Home: NextPage = () => {
 					__html: `
     					(function(c,l,a,r,i,t,y){
     					    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-    					    t=l.createElement(r);t.async=1;t.type="text/partytown";
+    					    t=l.createElement(r);t.async=1;t.type="text/partytown-x";
 							t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];
 							y.parentNode.insertBefore(t,y);
     					})(window, document, "clarity", "script", "h7cbux214u");`,
