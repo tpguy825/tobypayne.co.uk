@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 				<link rel="manifest" href="manifest.webmanifest" />
 				<link rel="apple-touch-icon" href="favicon.ico" />
 
-				<Partytown debug={true} forward={["dataLayer.push"]} />
+				<Partytown forward={["dataLayer.push"]} />
 			</Head>
 			{/* eslint-disable-next-line @next/next/next-script-for-ga */}
 			<script
