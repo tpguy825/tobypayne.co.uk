@@ -15,6 +15,7 @@ import Pgp from "~/images/icons/pgp.svg";
 import ProfilePicture from "~/images/pfp.png";
 import rickroll from "~/images/notarickroll.webp";
 import React from "react";
+import { env } from "~/env.mjs";
 
 const inter = font({
 	src: "./fonts/Inter-roman.var.woff2",
@@ -120,7 +121,7 @@ function ProfileImage() {
 			priority
 			{...handlers}
 			className="rounded-[50%]"
-			src={isRickroll ? rickroll : ProfilePicture}
+			src={isRickroll && env.NODE_ENV !== "development" ? rickroll : ProfilePicture}
 			alt="Profile image"
 		/>
 	);
