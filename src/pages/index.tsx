@@ -28,6 +28,8 @@ const Home: NextPage = () => {
 				<title>Toby Payne</title>
 				{/* <meta name="description" content="" /> */}
 				<link rel="icon" href={ProfilePicture.src} />
+				<link rel="manifest" href="manifest.webmanifest" />
+				<link rel="apple-touch-icon" href="favicon.ico" />
 
 				<Partytown debug={true} forward={["dataLayer.push"]} />
 			</Head>
