@@ -13,9 +13,8 @@ import Youtube from "~/images/icons/youtube.svg";
 import Email from "~/images/icons/email.svg";
 import Pgp from "~/images/icons/pgp.svg";
 import ProfilePicture from "~/images/pfp.png";
-import rickroll from "~/images/notarickroll.webp";
+import rickroll from "~/images/notarickroll.gif";
 import React from "react";
-import { env } from "~/env.mjs";
 
 const inter = font({
 	src: "./fonts/Inter-roman.var.woff2",
@@ -27,7 +26,7 @@ const Home: NextPage = () => {
 		<>
 			<Head>
 				<title>Toby Payne</title>
-				<meta name="description" content="" />
+				{/* <meta name="description" content="" /> */}
 				<link rel="icon" href={ProfilePicture.src} />
 
 				<Partytown debug={true} forward={["dataLayer.push"]} />
@@ -134,7 +133,7 @@ function ProfileImage() {
 			priority
 			{...handlers}
 			className="rounded-[50%]"
-			src={isRickroll && env.NODE_ENV !== "development" ? rickroll : ProfilePicture}
+			src={isRickroll ? rickroll : ProfilePicture}
 			alt="Profile image"
 		/>
 	);
