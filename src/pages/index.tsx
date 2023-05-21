@@ -1,17 +1,17 @@
 import Head from "next/head";
-import Image, { type StaticImageData } from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import font from "next/font/local";
 import { useLongHover } from "@tpguy825/clicker";
 import { Partytown } from "@builder.io/partytown/react";
 import React from "react";
 
-import Github from "~/images/icons/github.svg";
-import Twitter from "~/images/icons/twitter.svg";
-import Twitch from "~/images/icons/twitch.svg";
-import Youtube from "~/images/icons/youtube.svg";
-import Email from "~/images/icons/email.svg";
-import Pgp from "~/images/icons/pgp.svg";
+import Github from "~/images/icons/github";
+import Twitter from "~/images/icons/twitter";
+import Twitch from "~/images/icons/twitch";
+import Youtube from "~/images/icons/youtube";
+import Email from "~/images/icons/email";
+import Pgp from "~/images/icons/pgp";
 import ProfilePicture from "~/images/pfp.png";
 import rickroll from "~/images/notarickroll.gif";
 
@@ -83,47 +83,27 @@ function Links(): JSX.Element {
 	return (
 		<>
 			<Link href="https://github.com/tpguy825">
-				<Image
-					className="my-auto inline-block"
-					alt="GitHub"
-					title="GitHub"
-					src={Github as StaticImageData}
-				/>
+				<Github className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
 			<Link href="https://twitter.com/tpguy825">
-				<Image
-					className="my-auto inline-block"
-					alt="Twitter"
-					title="Twitter"
-					src={Twitter as StaticImageData}
-				/>
+				<Twitter className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
 			<Link href="https://twitch.tv/tpguy825">
-				<Image
-					className="my-auto inline-block"
-					alt="Twitch"
-					title="Twitch"
-					src={Twitch as StaticImageData}
-				/>
+				<Twitch className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
 			<Link href="https://youtube.com/@tobypayne">
-				<Image
-					className="my-auto inline-block"
-					alt="YouTube"
-					title="YouTube"
-					src={Youtube as StaticImageData}
-				/>
+				<Youtube className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
 			<Link href="mailto:toby@tobypayne.co.uk">
-				<Image className="my-auto inline-block" alt="Email" title="Email" src={Email as StaticImageData} />
+				<Email className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
 			<Link href="/toby@tobypayne.co.uk.pgp">
-				<Image className="my-auto inline-block" alt="PGP" title="PGP key" src={Pgp as StaticImageData} />
+				<Pgp className="my-auto inline-block" />
 			</Link>
 		</>
 	);
