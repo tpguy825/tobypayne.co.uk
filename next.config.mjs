@@ -1,6 +1,7 @@
 import nextpwa from "next-pwa";
 const withPWA = nextpwa({
 	dest: "public",
+	maximumFileSizeToCacheInBytes: 3145728
 });
 
 /** @type {import("next").NextConfig} */
