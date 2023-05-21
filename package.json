@@ -12,7 +12,7 @@
 		"@builder.io/partytown": "^0.8.0",
 		"@tpguy825/clicker": "^1.0.3",
 		"next": "^13.4.3",
-		"preact": "^10.15.0",
+		"preact": "^10.14.1",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"sharp": "^0.32.1",
