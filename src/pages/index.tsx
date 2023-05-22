@@ -82,27 +82,27 @@ function LinkDivider(): JSX.Element {
 function Links(): JSX.Element {
 	return (
 		<>
-			<Link href="https://github.com/tpguy825">
+			<Link href="https://github.com/tpguy825" aria-label="Github">
 				<Github className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
-			<Link href="https://twitter.com/tpguy825">
+			<Link href="https://twitter.com/tpguy825" aria-label="Twitter">
 				<Twitter className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
-			<Link href="https://twitch.tv/tpguy825">
+			<Link href="https://twitch.tv/tpguy825" aria-label="Twitch">
 				<Twitch className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
-			<Link href="https://youtube.com/@tobypayne">
+			<Link href="https://youtube.com/@tobypayne" aria-label="Youtube">
 				<Youtube className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
-			<Link href="mailto:toby@tobypayne.co.uk">
+			<Link href="mailto:toby@tobypayne.co.uk" aria-label="Email">
 				<Email className="my-auto inline-block" />
 			</Link>
 			<LinkDivider />
-			<Link href="/toby@tobypayne.co.uk.pgp">
+			<Link href="/toby@tobypayne.co.uk.pgp" aria-label="PGP key">
 				<Pgp className="my-auto inline-block" />
 			</Link>
 		</>
