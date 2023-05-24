@@ -218,9 +218,11 @@
     tslib "^2.4.0"
 
 "@tpguy825/clicker@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@tpguy825/clicker/-/clicker-1.0.3.tgz#714b29ecac812054797ef0eb6fa76f001d4c50a4"
-  integrity sha512-42a9KJqv4ij0GMPH894mVqd8Q31VM1fJ8umHuIuJrVxXKUo9SiMiZ/pRXQpv9Vb8SkFc654+to877b0oOd5AYA==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@tpguy825/clicker/-/clicker-1.0.5.tgz#92576efa396befc016f2393a8ec66443a46be589"
+  integrity sha512-tFyv5uIHMs9XxILLiFzSHPbpoEC+0NKq095z1jVmFk+pdjvyNtf5bkVUIn+CAr3QhO86tTRQAiYT1SnIjgN9Tg==
+  dependencies:
+    react "^18.2.0"
 
 "@types/eslint-scope@^3.7.3":
   version "3.7.4"
@@ -2617,7 +2619,7 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react@18.2.0:
+react@18.2.0, react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
