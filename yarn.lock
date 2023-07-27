@@ -223,9 +223,9 @@
     tslib "^2.4.0"
 
 "@tpguy825/clicker@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@tpguy825/clicker/-/clicker-1.0.5.tgz#92576efa396befc016f2393a8ec66443a46be589"
-  integrity sha512-tFyv5uIHMs9XxILLiFzSHPbpoEC+0NKq095z1jVmFk+pdjvyNtf5bkVUIn+CAr3QhO86tTRQAiYT1SnIjgN9Tg==
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@tpguy825/clicker/-/clicker-1.0.6.tgz#499e492569bb227cdcd9f90c18a994183996b92d"
+  integrity sha512-icjlK+0mXMP6h3OlcDy1FAV59Jny6ul7iiwuRQRDr6Z6YlAm+Y9Ax/7Bb+ztmKL2hJQjyRZ7lDK9bndvWv7twA==
   dependencies:
     react "^18.2.0"
 
