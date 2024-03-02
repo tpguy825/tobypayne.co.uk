@@ -9,7 +9,7 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"@builder.io/partytown": "^0.8.0",
+		"@builder.io/partytown": "^0.10.0",
 		"@tpguy825/clicker": "^1.0.6",
 		"next": "^13.4.19",
 		"preact": "^10.17.1",
